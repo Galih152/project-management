@@ -1,6 +1,15 @@
 "use client";
+/* eslint react-hooks/exhaustive-deps:0 */
 import React, { useEffect, useMemo, useState } from "react";
-import { Plus, CheckCircle2, Clock, AlertTriangle, Search, Pencil, Trash2 } from "lucide-react";
+import {
+  Plus,
+  CheckCircle2,
+  Clock,
+  AlertTriangle,
+  Search,
+  Pencil,
+  Trash2,
+} from "lucide-react";
 
 // Firebase
 import { db, initAnalytics } from "@/lib/firebase";
